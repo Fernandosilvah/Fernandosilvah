@@ -1,0 +1,52 @@
+@media( max-width: 1280px){
+    body{
+        padding: 0 40px;
+
+    }
+}
+@media( max-width: 768px ){
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 48%;
+        
+    
+    }
+    .informacoes .descricao{
+        width: 60%;
+        display:flex;
+        padding-right: 0px;
+        text-align: center;
+
+    }
+    @media( max-width: 425px){
+        .informacoes.logo{
+            max-width: 300px;
+            width: 40%;
+            text-align: center;      
+    }
+    
+}
+    .informacoes{
+        max-width: 300px;
+    }
+    
+    .botoes-carrosel{
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+    }
+
+    .menu-lateral{
+        position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .menu-lateral ul{
+        flex-direction: row;
+        gap: 12px;
+    }
+}
